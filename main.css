@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed:wght@400;500&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto:ital,wght@1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: calc(100% - 120px);
+    margin: auto;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header{
+    background-color:#eee;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);
+    padding: 10px;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+header .logo img{
+    width: 40px;
+}
+.active{
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+}
+nav ul{
+list-style-type:none ;
+}
+header .logo a{
+color: #545BE8;
+}
+header nav ul {
+    display: flex;
+    gap:20px;
+}
+header ul{
+    color: #101928;
+}
+header .auth{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+header .auth a{
+    font-family: 'Inter', sans-serif;
+    padding: 5.354px 30px;
+    border-radius: 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    
+}
+header .auth .login{
+    color: #545BE8;
+    border: 2px solid #545BE8;
+}
+header .auth .Register{
+    background-color: #545BE8;
+    color: white;
+}
