@@ -125,6 +125,7 @@ header .auth .Register{
 }
 .frame1 , .frame2 , .frame3 {
     background-color: #545BE8;
+    width: calc((100% - 40px) /3);
     padding: 20px 20px;
    font-family: Inter;
    font-size: 7.413px;
