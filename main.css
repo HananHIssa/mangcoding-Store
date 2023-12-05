@@ -81,13 +81,18 @@ header .auth .Register{
 .start {
     background: #F5F5F5;
     width: 100%;
-    height: 400.361px;
+    height: 760.361px;
     gap: 50px;
     padding: 30px;
 } 
+.start .row{
+    position: relative;
+    top: 0;
+}
 .start .part1{
-    width: (( 100% - 50px) /2);
-    gap: 30px;
+    gap: 60px;
+    padding: 40px;
+    width: calc((100% - 50px)/2);
 }
 .info .letsb{
     color: #545BE8;
@@ -109,15 +114,16 @@ header .auth .Register{
 .info h2{
     color: #141E32;
 font-family: Poppins;
-font-size: 30.359px;
+font-size: 40.359px;
 font-style: normal;
-font-weight: 700;
+font-weight: 900;
 line-height: normal;
+padding: 10px;
 }
 .info .stc{
     color: #545BE8;
 font-family: Poppins;
-font-size: 30.359px;
+font-size: 40.359px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -129,12 +135,13 @@ font-size: 10.413px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+padding: 10px;
 }
 .start  a{
     font-family: 'Inter', sans-serif;
     padding: 5.354px 30px;
     border-radius: 10px;
-    font-size: 13px;
+    font-size: 14px;
     display: flex;
     align-items: center;
 }
@@ -142,6 +149,8 @@ line-height: normal;
     color: white;
     border: 2px solid #545BE8;
     background-color: #545BE8;
+    text-align: center;
+    padding: 10px;
 }
 
  .linker {
@@ -149,35 +158,46 @@ line-height: normal;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
+    padding: 30px;
 }
- .linker .Play Video{
-    border-radius: 4.119px;
-    display: flex;
+    .start .playvideo{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        border-radius: 10px;
+        align-items: center;
+        color: #141E32;
+        font-family: Inter;
+        font-size: 7.413px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+  }
+  
+  .start .part1 .row{
+    justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    color: #141E32;
-    font-family: Inter;
-    font-size: 7.413px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-} 
+    gap: 50px;
+  }
 .start .part2{
-    width: (( 100% - 50px) /2);
+    width: calc(( 100% - 50px) /2);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
 }
-.start img{
-    width: calc(((100% - 50px)* 1/3));
-    padding: 20px;
+.start .part2 img{
+    width: calc((100% - 110px) /2);
+    position: absolute;
+    top: -2px;
+    right: 0;
 }
-
+.whatwegive{
+    height: 500px;
+}
 .whatwegive .row {
     align-items: flex-start;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 .whatwegive .data{
     width: calc(( 100% - 50px) /2);
